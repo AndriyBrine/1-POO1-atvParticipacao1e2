@@ -4,7 +4,7 @@ public class Ponto{
 	double y;
 
 	// Constructor Ponto
-	public Ponto(double x, double y){
+	public Ponto(double x, double y){ 
 		this.x = x;
 		this.y = y;
 	}
@@ -13,4 +13,10 @@ public class Ponto{
 		distancia = Math.sqrt( Math.pow((x - p2.x),2) + Math.pow((y - p2.y),2) )
 
 		return distancia
+	}
+
+	public void toString(){
+		s = System.out.println(this.x + this.y + distancia);
+		return s;
+	}
 }
